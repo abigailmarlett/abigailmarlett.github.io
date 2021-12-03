@@ -131,6 +131,10 @@ footer{
         grid-column: 2;
     }
 
+    .button{
+        font-size: 1.5vw;
+    }
+
     .navmenu{
         grid-column: 3/6;
     }
