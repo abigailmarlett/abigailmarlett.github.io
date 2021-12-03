@@ -1,7 +1,7 @@
 .grid-layout{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 8vh 8vh 60vh 40vh 40vh 10vh;
+    grid-template-rows: 2vh 4vh 60vh 40vh 40vh 10vh;
 }
 
 .top{
@@ -31,7 +31,7 @@
 .navitems{
     font-family: 'PT Serif', serif;
     width: 18%;
-    height:100%;
+    height:40%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,7 +44,7 @@
     transition: all 0.4s ease-in-out;
     background: #000;
     color:white;
-    font-size: 0.6rem;
+    font-size: 2vw;
     text-transform: uppercase;
  }
  

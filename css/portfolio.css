@@ -1,7 +1,7 @@
 .layout{
     display:grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 8vh 8vh 100vh 5vh 110vh 10vh 5vh;
+    grid-template-rows: 4vh 8vh 110vh 5vh 130vh 10vh 5vh;
 }
 
 .top{
@@ -31,7 +31,7 @@
 .navitems{
     font-family: 'PT Serif', serif;
     width: 18%;
-    height:100%;
+    height:40%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,7 +44,7 @@
     transition: all 0.4s ease-in-out;
     background: #000;
     color:white;
-    font-size: 0.6rem;
+    font-size: 2vw;
     text-transform: uppercase;
  }
  
@@ -104,6 +104,7 @@
 }
 
 .description{
+    font-size: 3vw;
     margin-left: 15px;
     margin-right: 15px;
     font-family: 'PT Serif', serif;
@@ -113,13 +114,14 @@
 .main_title{
     margin-left: 15px;
     margin-right: 15px;
-    font-size: 20pt;
+    font-size: 6vw;
     margin-bottom: 8pt;
     font-family: 'Bodoni Moda', serif;
     font-weight: bold;
 }
 
 a{
+    font-size: 5vw;
     margin-left: 15px;
     margin-right: 15px;
     font-family: 'EB Garamond', serif;
@@ -162,6 +164,14 @@ footer{
     justify-content: center;
 }
 
+
+@media screen and (min-width: 600px){
+    .layout{
+        grid-template-rows: 8vh 8vh 170vh 5vh 170vh 10vh 5vh;
+    }
+}
+
+
 @media screen and (min-width: 1200px) {
     .layout{
         margin-left: 15vw;
@@ -175,7 +185,11 @@ footer{
     .credit{
         grid-row: 7;
     }
+    .button{
+        font-size: 1vw;
+    }
+    .navmenu{
+        height: 70%;
+    }
 
-    
-    
 }
