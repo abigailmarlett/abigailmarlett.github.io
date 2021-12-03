@@ -295,6 +295,8 @@ footer{
         grid-row: 5;
         grid-column: 4/6;
         align-self: flex-start;
+        justify-content: space-around;
+
     }
 
     .socials{

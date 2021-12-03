@@ -153,6 +153,6 @@ footer{
     }
     
     .credit{
-        grid-column: 1/6;
+        grid-column: 3;
     }
 }
