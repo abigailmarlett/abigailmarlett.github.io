@@ -31,7 +31,7 @@
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: flex-end;
-    margin-right: 20px;
+    margin-right: 10px;
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
@@ -90,6 +90,7 @@
 }
 
 .imageblockcontainer{
+    margin-left: 10px;
     grid-column: 1/2;
     grid-row: 2/4;
     display: flex;
