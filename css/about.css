@@ -1,7 +1,7 @@
 .grid-layout{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 2vh 4vh 60vh 40vh 40vh 10vh;
+    grid-template-rows: 4vh 8vh 60vh 40vh 40vh 10vh;
 }
 
 .top{
@@ -255,7 +255,10 @@ footer{
         margin-left: 10vw;
         margin-right: 10vw;
     }
-
+    .button{
+        font-size: 1vw;
+    }
+    
     .top{
         grid-column: 1/6;
     }
@@ -284,6 +287,7 @@ footer{
         height: 500px;
         margin-top: 20pt;
         line-height: 2;
+        
     }
 
     .bookcontainer{

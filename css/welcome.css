@@ -137,7 +137,7 @@ footer{
 
     .navmenu{
         grid-column: 3/6;
-    }
+    } 
 
     footer{
         grid-column: 3;

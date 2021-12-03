@@ -1,7 +1,7 @@
 .layout{
     display:grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 8vh 8vh 95vh 5vh 95vh 10vh 5vh;
+    grid-template-rows: 4vh 8vh 60vh 5vh 60vh 10vh 5vh;
 }
 .top{
     grid-column: 1;
@@ -30,7 +30,7 @@
 .navitems{
     font-family: 'PT Serif', serif;
     width: 18%;
-    height:100%;
+    height:40%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,7 +43,7 @@
     transition: all 0.4s ease-in-out;
     background: #000;
     color:white;
-    font-size: 0.6rem;
+    font-size: 2vw;    
     text-transform: uppercase;
  }
  
@@ -92,17 +92,19 @@
     box-shadow: 0 0 5px 5px rgb(243, 242, 242);
     grid-row: 3;
     background-color:rgb(250, 250, 250);
+    font-size: 2vw;
 }
 
 .title{
     margin-left: 15px;
-    font-size: 20pt;
+    font-size: 6vw;
     margin-bottom: 8pt;
     font-family: 'Bodoni Moda', serif;
     font-weight: bold;
 }
 
 .an_award{
+    font-size: 3vw;
     margin-left: 15px;
     margin-right: 15px;
     font-family: 'PT Serif', serif;
@@ -110,6 +112,7 @@
 }
 
 a{
+    font-size: 3vw;
     margin-left: 15px;
     margin-right: 15px;
     font-family: 'PT Serif', serif;
@@ -153,12 +156,15 @@ footer{
 
 @media screen and (min-width: 1200px) {
     .layout{
-        grid-template-rows: 8vh 8vh 70vh 5vh 80vh 5vh 5vh;
+        grid-template-rows: 8vh 8vh 55vh 5vh 60vh 5vh 5vh;
         grid-template-columns: 15vw 1fr 15vw;
     }
 
     .top{
         grid-column: 2;
+    }
+    .button{
+        font-size: 1vw;
     }
 
     .navmenu{
@@ -167,6 +173,7 @@ footer{
 
     .awards{
         grid-column:2;
+        font-size: 1vw;
     }
 
     .articles{
@@ -182,4 +189,15 @@ footer{
         grid-column: 2;
         grid-row: 7;
     }
+    .title{
+        font-size: 3vw;
+    }
+    a{
+        font-size: 1.5vw;
+    }
+    .an_award{
+        font-size: 1.5vw;
+    }
+    
+
 }
