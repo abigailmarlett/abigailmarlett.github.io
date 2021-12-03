@@ -1,7 +1,7 @@
 .grid-layout{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 4vh 8vh 60vh 40vh 40vh 10vh;
+    grid-template-rows: 4vh 8vh 10vh 20vh 5vh;
 }
 
 .top{
@@ -90,7 +90,7 @@
 
 .headshotcontainer{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     grid-row: 3;
     grid-column: 1;
@@ -99,8 +99,8 @@
 }
 
 .headshotimage{
-    max-width: 90%;
-    max-height: 90%;
+    max-width: 300px;
+    max-height: 450px;
 }
 
 .writingblock{
@@ -109,37 +109,22 @@
     max-height: 350px;
     grid-column: 2/4;
     grid-row: 3;
-    background-color: rgb(255, 255, 255);
     padding: 5%;
     margin: 2%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
     transition: 0.3s;
     font-size: 18px;
     line-height: 1.5;
 }
 
-.bookcontainer{
-    grid-column: 1/4;
-    grid-row: 4;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
 
-.book{
-    max-width: 170pt;
-    height:180pt;
-    background-color: black;
-    overflow: auto;
-}
 
 .socials{
     font-family: 'Ephesis', cursive;
     grid-column: 1/4;
-    grid-row: 6;
+    grid-row: 5;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -147,12 +132,12 @@
 
 .socialmedia{
     grid-column: 1/4;
-    grid-row: 5/6;
+    grid-row: 4/5;
     margin-left: 5%;
     margin-right: 8%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-around 10px;
     flex-direction: column;
     font-family: 'PT Serif', serif;   
 }
@@ -216,7 +201,7 @@
 
 footer{
     grid-column: 1/4;
-    grid-row: 9;
+    grid-row: 4;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -225,7 +210,7 @@ footer{
 }
 
 .credit{
-    grid-row: 10;
+    grid-row: 5;
     grid-column: 1/4;
     font-size: 7pt;
     display: flex;
@@ -237,18 +222,26 @@ footer{
     border-radius: 5px;
 }
 
-.bookimage{
-    width: 100%;
-    height: 100%;
+@media screen and (min-width: 570px) {
+    .layout{
+        grid-template-rows: 4vh 8vh 20vh 30vh 5vh;
+    }
+
+    .socials{
+        grid-column: 2/4;
+    }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 2000px) {
     .grid-layout{
         display:grid;
         grid-template-columns: 15vw 20vw 20vw 20vw 15vw;
-        grid-template-rows: 8vh 8vh 50vh 5vh 50vh 1vh;
+        grid-template-rows: 4vh 8vh 50vh 5vh 50vh 1vh;
         margin-left: 70px;
         margin-right: 70px;
+    }
+    .navitems{
+        height: 40%;
     }
 
     .navmenu{
@@ -290,14 +283,6 @@ footer{
         
     }
 
-    .bookcontainer{
-        margin-top: 70px;
-        grid-row: 5;
-        grid-column: 4/6;
-        align-self: flex-start;
-        justify-content: space-around;
-
-    }
 
     .socials{
         grid-row: 5;
@@ -315,10 +300,5 @@ footer{
     .headshotimage{
         width: 280px;
         height: 400px;
-    }
-    
-    .book{
-        max-width: 200pt;
-        height:220pt;
     }
 }
