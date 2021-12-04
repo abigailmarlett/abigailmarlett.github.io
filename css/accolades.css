@@ -139,7 +139,7 @@ footer{
     grid-column: 1;
     grid-row: 6;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     font-family: 'Ephesis', cursive;
     font-size: 15pt;
