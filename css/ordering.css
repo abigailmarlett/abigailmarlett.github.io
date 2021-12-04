@@ -1,7 +1,7 @@
 .layout{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 4vh 8vh 25vh 65vh 35vh 70vh 5vh 5vh;
+    grid-template-rows: 4vh 8vh 25vh 65vh 15vh 70vh 5vh 5vh;
 }
 
 .top{
@@ -71,16 +71,11 @@
    left: 50%;
 }
 
-.button:hover:before {
-   height: 100%;
-   top: 0%;
-   background: #3f3d3d;
-}
 
 .button:hover:after {
    width: 100%;
    left: 0%;
-   background: #3f3d3d;
+   background:#91ad8d;
 }
 
 .button:hover {
@@ -177,7 +172,7 @@ a:hover{
 
 .book_title{
     font-family: 'Bodoni Moda', serif;
-    font-size: 2vw;
+    font-size: 3vw;
     font-weight: bold;
     display: flex;
     justify-content: center;
@@ -218,7 +213,7 @@ footer{
     .layout{
         display:grid;
         grid-template-columns: 1fr 1fr 10vw 1fr 1fr;
-        grid-template-rows: 8vh 8vh 35vh 65vh 10vh;
+        grid-template-rows: 8vh 8vh 40vh 65vh 10vh;
         font-family: 'EB Garamond', serif;
         margin-left: 15vw;
         margin-right: 15vw;
@@ -244,8 +239,10 @@ footer{
         grid-row: 2;
         grid-column: 1/6;
     }
-   
-
+    .book_title{
+        font-family: 'Bodoni Moda', serif;
+        font-size: 2vw;
+    }
     .rootlines_container{
         grid-row: 3;
         grid-column: 1;

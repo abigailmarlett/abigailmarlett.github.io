@@ -1,7 +1,7 @@
 .layout{
     display:grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 4vh 8vh 70vh 5vh 70vh 5vh 5vh;
+    grid-template-rows: 4vh 8vh 90vh 5vh 90vh 10vh 10vh;
 }
 .top{
     grid-column: 1;
@@ -70,17 +70,16 @@
    left: 50%;
 }
 
-.button:hover:before {
-   height: 100%;
-   top: 0%;
-   background: #3f3d3d;
-}
-
 .button:hover:after {
-   width: 100%;
-   left: 0%;
-   background: #3f3d3d;
-}
+    width: 100%;
+    left: 0%;
+    background:rgb(145, 173, 141);
+ }
+ 
+ .button:hover {
+    background: transparent;
+    color: black;
+ }
 
 .button:hover {
    background: transparent;
@@ -97,14 +96,14 @@
 
 .title{
     margin-left: 15px;
-    font-size: 6vw;
+    font-size: 3vw;
     margin-bottom: 8pt;
     font-family: 'Bodoni Moda', serif;
     font-weight: bold;
 }
 
 .an_award{
-    font-size: 3vw;
+    font-size: 2vw;
     margin-left: 15px;
     margin-right: 15px;
     font-family: 'PT Serif', serif;
@@ -112,7 +111,7 @@
 }
 
 a{
-    font-size: 3vw;
+    font-size: 2vw;
     margin-left: 15px;
     margin-right: 15px;
     font-family: 'PT Serif', serif;
@@ -156,7 +155,7 @@ footer{
 
 @media screen and (min-width: 1200px) {
     .layout{
-        grid-template-rows: 8vh 8vh 55vh 5vh 80vh 5vh 5vh;
+        grid-template-rows: 8vh 8vh 90vh 5vh 90vh 5vh 5vh;
         grid-template-columns: 15vw 1fr 15vw;
     }
 
@@ -177,10 +176,6 @@ footer{
     }
 
     .articles{
-        grid-column: 2;
-    }
-
-    footer{
         grid-column: 2;
     }
 

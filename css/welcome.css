@@ -72,17 +72,16 @@
    left: 50%;
 }
 
-.button:hover:before {
-   height: 100%;
-   top: 0%;
-   background: #3f3d3d;
-}
-
 .button:hover:after {
-   width: 100%;
-   left: 0%;
-   background: #3f3d3d;
-}
+    width: 100%;
+    left: 0%;
+    background:rgb(145, 173, 141);
+ }
+ 
+ .button:hover {
+    background: transparent;
+    color: black;
+ }
 
 .button:hover {
    background: transparent;
@@ -100,25 +99,27 @@
     justify-content: space-around;
 }
 footer{
-    grid-column: 1/4;
-    grid-row: 4;
     display: flex;
     justify-content: center;
     align-items: flex-end;
     font-family: 'Ephesis', cursive;
     font-size: 15pt;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
 }
 
 .credit{
-    grid-row: 5;
-    grid-column: 1/4;
     font-size: 7pt;
     display: flex;
     justify-content: center;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
 }
 
 .kelseypic{
-    width: 300px;
+    width: 30vw;
     border-radius: 5px;
 }
 
@@ -139,10 +140,7 @@ footer{
         grid-column: 3/6;
     } 
 
-    footer{
-        grid-column: 3;
-    }
-
+   
     .top{
         grid-column: 3;
     }
