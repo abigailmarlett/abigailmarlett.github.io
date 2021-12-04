@@ -160,7 +160,7 @@ footer{
     }
 
     .footer{
-        right: 50vw;
+        grid-column: 2;
     }
     .top{
         grid-column: 2;
@@ -188,7 +188,7 @@ footer{
         grid-row: 7;
     }
     .title{
-        grid-column: 2;
+        font-size: 3vw;
     }
     a{
         font-size: 1.5vw;
