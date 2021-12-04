@@ -1,7 +1,7 @@
 .layout{
     display:grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 4vh 8vh 60vh 5vh 60vh 5vh 5vh;
+    grid-template-rows: 4vh 8vh 70vh 5vh 70vh 5vh 5vh;
 }
 .top{
     grid-column: 1;
