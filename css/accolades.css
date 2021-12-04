@@ -156,7 +156,7 @@ footer{
 
 @media screen and (min-width: 1200px) {
     .layout{
-        grid-template-rows: 8vh 8vh 55vh 5vh 75vh 5vh 5vh;
+        grid-template-rows: 8vh 8vh 55vh 5vh 80vh 5vh 5vh;
         grid-template-columns: 15vw 1fr 15vw;
     }
 
