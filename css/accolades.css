@@ -146,7 +146,7 @@ footer{
 }
 
 .credit{
-    grid-row: 1;
+    grid-row: 7;
     grid-column: 1;
     font-size: 7pt;
     display: flex;
@@ -161,6 +161,7 @@ footer{
 
     footer{
         grid-column: 2;
+        grid-row: 6;
     }
     .top{
         grid-column: 2;
