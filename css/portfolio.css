@@ -2,6 +2,7 @@
     display:grid;
     grid-template-columns: 1fr;
     grid-template-rows: 4vh 8vh 110vh 5vh 130vh 10vh 5vh;
+    
 }
 
 .top{
@@ -44,7 +45,7 @@
     transition: all 0.4s ease-in-out;
     background: #000;
     color:white;
-    font-size: 2vw;
+    font-size: 20px;
     text-transform: uppercase;
  }
  
@@ -176,7 +177,7 @@ footer{
     .layout{
         margin-left: 15vw;
         margin-right: 15vw;
-        grid-template-rows: 8vh 8vh 90vh 5vh 100vh 10vh 5vh;
+        grid-template-rows: 8vh 8vh 90vh 5vh 120vh 10vh 5vh;
 
     }
     footer{
