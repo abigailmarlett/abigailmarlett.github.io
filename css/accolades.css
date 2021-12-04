@@ -146,6 +146,7 @@ footer{
 }
 
 .credit{
+    bottom: 0px;
     grid-row: 7;
     grid-column: 1;
     font-size: 7pt;
